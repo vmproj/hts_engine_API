@@ -1,10 +1,11 @@
 # hts_engine_API
 
+
+![C/C++ CI](https://github.com/r9y9/hts_engine_API/workflows/C/C++%20CI/badge.svg)
 [![Build Status](https://travis-ci.org/r9y9/hts_engine_API.svg?branch=master)](https://travis-ci.org/r9y9/hts_engine_API)
 [![Build status](https://ci.appveyor.com/api/projects/status/7tm96g50a9i43mhl/branch/master?svg=true)](https://ci.appveyor.com/project/r9y9/hts-engine-api/branch/master)
 
 A fork of hts_engine_API
-
 
 ## Why
 
@@ -28,7 +29,7 @@ git cvsimport -v \
 
 The important changes from the original hts_engine_API are summarized below:
 
-- Integrate waf
+- CMake support
 - Add pkg-config suppport
 - Continuous integratioin support
 - keep sementic versioning http://semver.org/
